@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body .contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  background: url("img/piola-abst.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff; }
+  header .contenedor {
+    position: relative;
+    height: 700px; }
+  header .menu {
+    width: 100%;
+    text-align: right; }
+    header .menu a {
+      text-decoration: none;
+      display: inline-block;
+      margin: 40px 20px;
+      position: relative;
+      color: #ccc; }
+      header .menu a:hover {
+        text-decoration: underline; }
+  header .textos {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    margin-top: 0; }
+    header .textos .titular {
+      font-weight: bold;
+      font-size: 4rem; }
+      header .textos .titular span {
+        font-weight: 200; }
+    header .textos .frase {
+      font-style: italic;
+      color: #ccc; }
+      header .textos .frase span {
+        color: #f00946; }
+
+.main {
+  background: url("img/pattern.png");
+  background-repeat: repeat; }
+  .main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative; }
+    .main .acerca-de .contenedor .foto {
+      width: 60%;
+      position: absolute;
+      left: -10px;
+      top: -60px;
+      box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+      z-index: 0; }
+      .main .acerca-de .contenedor .foto img {
+        margin: 0;
+        vertical-align: top;
+        width: 100%;
+        background-size: cover;
+        background-position: center; }
+    .main .acerca-de .contenedor .information {
+      color: #ccc;
+      z-index: 10;
+      position: relative;
+      float: right;
+      top: 150px;
+      width: 50%;
+      background-color: #0b0b0b;
+      box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+      padding: 20px 40px; }
+      .main .acerca-de .contenedor .information .titulo {
+        font-size: 50px;
+        font-weight: 300;
+        color: #f00946;
+        margin-bottom: 30px; }
+      .main .acerca-de .contenedor .information p {
+        line-height: 28px;
+        margin-bottom: 15px; }
+
+.servicios {
+  margin: 0 auto;
+  padding-top: 640px; }
+  .servicios .contenedor h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: #f00946;
+    margin-bottom: 30px; }
+  .servicios .contenedor .contenedor-servicios,
+  .servicios .contenedor .contenedor-servicios2 {
+    border: 1px solid #242222; }
+    .servicios .contenedor .contenedor-servicios article,
+    .servicios .contenedor .contenedor-servicios2 article {
+      padding: 20px;
+      width: 50%;
+      float: right; }
+      .servicios .contenedor .contenedor-servicios article .categoria,
+      .servicios .contenedor .contenedor-servicios2 article .categoria {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px; }
+      .servicios .contenedor .contenedor-servicios article .trabajo,
+      .servicios .contenedor .contenedor-servicios2 article .trabajo {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 2px dotted #ccc;
+        overflow: hidden; }
+        .servicios .contenedor .contenedor-servicios article .trabajo .nombre,
+        .servicios .contenedor .contenedor-servicios2 article .trabajo .nombre {
+          float: left; }
+        .servicios .contenedor .contenedor-servicios article .trabajo .precio,
+        .servicios .contenedor .contenedor-servicios2 article .trabajo .precio {
+          float: right; }
+  .servicios .contenedor .contenedor-servicios {
+    padding: 10px;
+    height: 500px; }
+  .servicios .contenedor .contenedor-servicios2 {
+    padding: 20px; }
+
+/*# sourceMappingURL=layout.css.map */
