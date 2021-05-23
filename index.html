@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TecnoShop</title>
     <!-- custom -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
   </head>
   <body>
     <!-- navBar -->
@@ -20,8 +20,8 @@
         </nav>
 
         <div class="textos">
-          <h1>Tienda, <span>Ansa Technoloy</span></h1>
-          <p>encontra lo mejor en productos y servicios tecnológicos</p>
+          <h1 class="titular">Tienda, <span>Ansa Technoloy</span></h1>
+          <p class="frase">encontra lo mejor en <span>productos y servicios</span> tecnológicos</p>
         </div>
       </div>
     </header>
@@ -31,10 +31,10 @@
       <section class="acerca-de" id="acerca-de">
         <div class="contenedor">
           <div class="foto">
-            <img src="" alt="imagen asociativa al tema del sitio" />
+            <img src="img/tienda.jpg" alt="imagen asociativa al tema del sitio" />
           </div>
           <article class="information">
-            <h3>Acerca de</h3>
+            <h3 class="titulo">Acerca de</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               exercitationem corrupti inventore hic harum nesciunt deleniti
@@ -43,8 +43,6 @@
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum
               at dolores dignissimos suscipit praesentium?
-            </p>
-            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem commodi earum ducimus consequuntur! Tempore minima
               porro beatae! Architecto, sequi enim?
@@ -54,8 +52,8 @@
       </section>
       <!-- SERVICIOS START -->
       <section class="servicios" id="servicios">
-        <h3 class="titulo" id="servicios-precios">Servicios</h3>
         <div class="contenedor">
+          <h3 class="titulo" id="servicios-precios">Servicios</h3>
           <div class="contenedor-servicios">
             <div class="contenedor-servicios2">
               <article class="first-article">
@@ -65,7 +63,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -74,7 +71,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -83,7 +79,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -92,19 +87,17 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
               </article>
 
               <article class="second-article">
-                <p class="categoria">Celulares</p>
+                <p class="categoria">Revisiones</p>
                 <div class="trabajo">
                   <p class="nombre">Cambio de pantalla</p>
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -113,7 +106,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -122,7 +114,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
 
@@ -131,7 +122,6 @@
                   <p class="precio">$ 500 - $1500</p>
                   <p class="descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Id, tempore?/p>
                   </p>
                 </div>
               </article>
@@ -142,33 +132,68 @@
       <!-- GALERY START -->
       <section class="galeria" id="galeria">
         <div class="photo">
-          <img src="img/1.jpg" alt="image" />
+          <img src="img1.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/2.jpg" alt="image" />
+          <img src="img2.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/3.jpg" alt="image" />
+          <img src="img3.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/4.jpg" alt="image" />
+          <img src="img4.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/5.jpg" alt="image" />
+          <img src="img5.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/6.jpg" alt="image" />
+          <img src="img6.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/7.jpg" alt="image" />
+          <img src="img7.jpg" alt="image" />
         </div>
         <div class="photo">
-          <img src="img/8.jpg" alt="image" />
+          <img src="img8.jpg" alt="image" />
         </div>
       </section>
 
       <section class="galeria" id="galeria"></section>
-      <section class="ubicacion" id="ubicacion"></section>
+
+      <section class="ubicacion" id="ubicacion">
+        <div class="contenedor">
+          <h3 class="titulo">Ubicacion</h3>
+          <div class="direccion">
+            <br class="ciudad">2902 Primroise Lane<br>Santa Rosa. CA 92806</p>
+            <p class="telefono-correo">+598 91 274 380 <br>gmail: santiagoneira52@gmail.com</p>
+          </div>
+          <!-- horarios -->
+          <div class="horarios">
+            <h3 class="titulo">Horarios</h3>
+            <p>Lunes a Viernes<br>8:00am - 7:30pm</p>
+            <br>
+            <p>Sábados y Domingos <br>7:00am - 11:30pm</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d204.50321908442046!2d-56.189114046281865!3d-34.905156946254884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2suy!4v1621621114336!5m2!1ses-419!2suy"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
     </section>
+
+    <footer>
+      <div>
+        <div class="copyright">
+            <p>Copyright TecnoShop &COPY; 2020  boosted by: santiago neira </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

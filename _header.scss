@@ -1,0 +1,50 @@
+// HEADER
+@import "variables";
+
+header {
+  width: 100%;
+  background: url("img/piola-abst.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: $blanco;
+  .contenedor {
+    position: relative;
+    height: 700px;
+  }
+  .menu {
+    width: 100%;
+    text-align: right;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      margin: 40px 20px;
+      position: relative; //para animate jquery
+      color: $grisLight;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .textos {
+    width: 100%;
+    color: $blanco;
+    position: absolute; //para usar jquery
+    top: 30%;
+    margin-top: 0;
+    .titular {
+      font-weight: bold;
+      font-size: 4rem;
+      span {
+        font-weight: 200;
+      }
+    }
+    .frase {
+      font-style: italic;
+      color: $grisLight;
+      span {
+        color: $colorPrimario;
+      }
+    }
+  }
+}

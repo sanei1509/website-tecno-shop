@@ -1,0 +1,50 @@
+// main
+@import "variables";
+
+.main {
+  background: url("img/pattern.png");
+  background-repeat: repeat;
+  .acerca-de {
+    .contenedor {
+      overflow: visible;
+      position: relative;
+      .foto {
+        width: 60%;
+        position: absolute;
+        left: -10px;
+        top: -60px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+        z-index: 0;
+        img {
+          margin: 0;
+          vertical-align: top;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      .information {
+        color: $grisLight;
+        z-index: 10;
+        position: relative;
+        // right: -10px;
+        float: right;
+        top: 150px;
+        width: 50%;
+        background-color: $negro;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+        padding: 20px 40px;
+        .titulo {
+          font-size: 50px;
+          font-weight: 300;
+          color: $colorPrimario;
+          margin-bottom: 30px;
+        }
+        p {
+          line-height: 28px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
