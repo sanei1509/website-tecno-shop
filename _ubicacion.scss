@@ -1,0 +1,16 @@
+.ubicacion {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: #f00946;
+    margin-bottom: 30px;
+  }
+}

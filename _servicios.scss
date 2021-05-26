@@ -3,6 +3,8 @@
 .servicios {
   margin: 0 auto;
   padding-top: 640px;
+  padding-bottom: 100px;
+
   .contenedor {
     h3 {
       text-align: center;
@@ -14,6 +16,7 @@
     .contenedor-servicios,
     .contenedor-servicios2 {
       border: 1px solid $grisDark;
+      background-color: rgba(0, 0, 0, 0.7);
       article {
         padding: 20px;
         width: 50%;
@@ -21,19 +24,27 @@
         .categoria {
           text-align: center;
           font-weight: bold;
-          font-size: 18px;
-          padding: 10px;
+          font-size: 22px;
+          padding: 20px 10px;
+          color: $blanco;
         }
         .trabajo {
           padding-bottom: 10px;
           margin-bottom: 10px;
-          border-bottom: 2px dotted $grisLight;
+          border-bottom: 3px dotted $grisLight;
           overflow: hidden;
           .nombre {
             float: left;
+            color: $grisLight;
+            font-weight: 600;
           }
           .precio {
             float: right;
+            color: $colorPrimario;
+            font-weight: 700;
+          }
+          .descripcion {
+            color: #777;
           }
         }
       }
