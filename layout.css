@@ -63,6 +63,7 @@ header {
       box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
       z-index: 0; }
       .main .acerca-de .contenedor .foto img {
+        cursor: pointer;
         margin: 0;
         vertical-align: top;
         width: 100%;
@@ -89,7 +90,8 @@ header {
 
 .servicios {
   margin: 0 auto;
-  padding-top: 640px; }
+  padding-top: 640px;
+  padding-bottom: 100px; }
   .servicios .contenedor h3 {
     text-align: center;
     font-size: 50px;
@@ -98,7 +100,8 @@ header {
     margin-bottom: 30px; }
   .servicios .contenedor .contenedor-servicios,
   .servicios .contenedor .contenedor-servicios2 {
-    border: 1px solid #242222; }
+    border: 1px solid #242222;
+    background-color: rgba(0, 0, 0, 0.7); }
     .servicios .contenedor .contenedor-servicios article,
     .servicios .contenedor .contenedor-servicios2 article {
       padding: 20px;
@@ -108,24 +111,85 @@ header {
       .servicios .contenedor .contenedor-servicios2 article .categoria {
         text-align: center;
         font-weight: bold;
-        font-size: 18px;
-        padding: 10px; }
+        font-size: 22px;
+        padding: 20px 10px;
+        color: #fff; }
       .servicios .contenedor .contenedor-servicios article .trabajo,
       .servicios .contenedor .contenedor-servicios2 article .trabajo {
         padding-bottom: 10px;
         margin-bottom: 10px;
-        border-bottom: 2px dotted #ccc;
+        border-bottom: 3px dotted #ccc;
         overflow: hidden; }
         .servicios .contenedor .contenedor-servicios article .trabajo .nombre,
         .servicios .contenedor .contenedor-servicios2 article .trabajo .nombre {
-          float: left; }
+          float: left;
+          color: #ccc;
+          font-weight: 600; }
         .servicios .contenedor .contenedor-servicios article .trabajo .precio,
         .servicios .contenedor .contenedor-servicios2 article .trabajo .precio {
-          float: right; }
+          float: right;
+          color: #f00946;
+          font-weight: 700; }
+        .servicios .contenedor .contenedor-servicios article .trabajo .descripcion,
+        .servicios .contenedor .contenedor-servicios2 article .trabajo .descripcion {
+          color: #777; }
   .servicios .contenedor .contenedor-servicios {
     padding: 10px;
     height: 500px; }
   .servicios .contenedor .contenedor-servicios2 {
     padding: 20px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1r 1fr;
+  text-align: center;
+  align-items: center; }
+  .galeria .photo {
+    max-width: 341.5px;
+    opacity: 0.6;
+    transition: all 0.3s ease-in;
+    height: 100%; }
+    .galeria .photo:hover {
+      opacity: 1; }
+    .galeria .photo img {
+      cursor: pointer;
+      width: 100%;
+      height: 100%; }
+
+.ubicacion {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .ubicacion .contenedor {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+  .ubicacion .titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: #f00946;
+    margin-bottom: 30px; }
+
+.copyright {
+  text-align: center;
+  background: #0b0b0b; }
+  .copyright p {
+    color: #777;
+    font-size: 13px; }
+
+.mapa {
+  width: 100%;
+  overflow: hidden; }
+  .mapa iframe {
+    width: 100%;
+    max-height: 600px; }
+
+@media screen and (max-width: 800px) {
+  header .contenedor {
+    position: static; }
+  header .textos {
+    position: static;
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=layout.css.map */

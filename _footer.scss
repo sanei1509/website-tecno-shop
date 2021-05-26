@@ -1,0 +1,10 @@
+@import "variables";
+
+.copyright {
+  text-align: center;
+  background: $negro;
+  p {
+    color: #777;
+    font-size: 13px;
+  }
+}
